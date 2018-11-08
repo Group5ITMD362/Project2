@@ -414,44 +414,58 @@ p{
   text-align: center;
   color: white;
 }
-body{
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-/* Navigation */
-nav{
-    float: left;
-    margin: 0;
-    overflow:hidden;
-    text-align: center;
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
 }
 
-nav ul{
-    margin: 0;
-    padding: 0;
+.navigation-bar {
+  background-color: #352d2f;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
 }
 
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
 }
 
-nav > ul > li > a{
-    color: #aaa;
-    display: block;
-    line-height: 2em;
-    padding: 0.5em 1em;
-    text-decoration: none;
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
 }
 
-.logo-img{
-    float: left;
-    position: relative;
-    margin: 10px 15px 15px 10px;
-}
-.bg-div{
-   background:#333;
-   overflow: hidden;
+#menu {
+  float: right;
 }
