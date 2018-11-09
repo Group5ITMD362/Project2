@@ -472,3 +472,45 @@ li::before {
     padding-right: 8px;
     color: #ffffff;
 }
+.header {
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.header h1 {
+    font-size: 50px;
+    clear: left;
+    text-align: left;
+    color: #ffffff;
+}
+
+.header h2 {
+    font-size: 20px;
+    clear: left;
+    text-align: left;
+    text-align: center;
+    color: #ffffff;
+}
+.header h3 {
+    font-size: 18px;
+    clear: left;
+    text-align: left;
+    text-align: center;
+    color: #ffffff;
+}
+.header h4 {
+    font-size: 15px;
+    clear: left;
+    text-align: left;
+    text-align: center;
+    color: #ffffff;
+}
+.header h5 {
+    font-size: 10px;
+    clear: left;
+    text-align: left;
+    text-align: center;
+    color: #ffffff;
+}
