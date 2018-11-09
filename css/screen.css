@@ -453,7 +453,7 @@ float:left;
   float: right;
 }
 .about{
-padding: 50px;
+padding: 110px;
 margin-top: 50px;
 color: #ffffff;
 }
@@ -491,7 +491,7 @@ li::before {
     color: #ffffff;
 }
 .about h3 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-size: 25px;
     color: #ffffff;
 }
