@@ -1,3 +1,3 @@
 function success() {
-    alert("Thank you! Your message has been sent successfully..");
+    alert("Thank you! Your message has been sent successfully.");
     }
