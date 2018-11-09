@@ -486,14 +486,15 @@ li::before {
 }
 
 .header h2 {
-    font-size: 20px;
+    font-size: 35px;
     clear: left;
     text-align: left;
     text-align: center;
+    padding-bottom: 25px;
     color: #ffffff;
 }
 .header h3 {
-    font-size: 18px;
+    font-size: 25px;
     clear: left;
     text-align: left;
     text-align: center;
