@@ -457,3 +457,18 @@ padding: 50px;
 margin-top: 50px;
 color: #ffffff;
 }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li { 
+    padding-left: 16px; 
+}
+
+li::before {
+    content: "•"; 
+    padding-right: 8px;
+    color: #ffffff;
+}
