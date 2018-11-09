@@ -402,23 +402,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-h1{
-  text-align: center;
-  color: white;
-}
-h2{
-  text-align: center;
-  color: white;
-}
-p{
-  text-align: center;
-  color: white;
-}
-body {
-  margin-top: 20px;
-  padding: 20px;
-}
-
 .logo {
   float: left;
 }
@@ -470,6 +453,6 @@ float:left;
   float: right;
 }
 .about{
-padding: 20px;
-margin-top: 20px;
+padding: 50px;
+margin-top: 50px;
 }
