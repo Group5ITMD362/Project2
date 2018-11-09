@@ -473,7 +473,7 @@ li::before {
     color: #ffffff;
 }
 .header {
-    padding: 10px;
+    padding: none;
     text-align: center;
     color: #ffffff;
     
