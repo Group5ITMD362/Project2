@@ -485,7 +485,7 @@ li::before {
     color: #ffffff;
 }
 
-.header h2 {
+h2 {
     padding-bottom: 25px;
     font-size: 35px;
     clear: left;
@@ -493,7 +493,7 @@ li::before {
     text-align: center;
     color: #ffffff;
 }
-.header h3 {
+h3 {
     padding-bottom: 25px;
     font-size: 25px;
     clear: left;
