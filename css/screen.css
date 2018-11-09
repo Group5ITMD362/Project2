@@ -513,15 +513,3 @@ li::before {
     text-align: center;
     color: #ffffff;
 }
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-        width: 100%;
-        padding: 0;
-    }
-}
-@media screen and (max-width: 400px) {
-    .navigation-bar a {
-        float: none;
-        width: 100%;
-    }
-}
