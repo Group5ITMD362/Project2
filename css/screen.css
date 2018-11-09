@@ -457,6 +457,16 @@ padding: 75px;
 margin-top: 50px;
 color: #ffffff;
 }
+.announcement{
+padding: 75px;
+margin-top: 50px;
+color: #ffffff;
+}
+.contact{
+padding: 75px;
+margin-top: 50px;
+color: #ffffff;
+}
 ul {
     list-style: none;
     padding-top: 25px;
@@ -487,6 +497,16 @@ li::before {
 }
 
 .about h2 {
+    padding-bottom: 40px;
+    font-size: 35px;
+    color: #ffffff;
+}
+.announcement h2 {
+    padding-bottom: 40px;
+    font-size: 35px;
+    color: #ffffff;
+}
+.contact h2 {
     padding-bottom: 40px;
     font-size: 35px;
     color: #ffffff;
