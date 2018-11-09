@@ -459,7 +459,7 @@ color: #ffffff;
 }
 ul {
     list-style: none;
-    padding: 0;
+    padding-top: 25px;
     margin: 0;
 }
 
