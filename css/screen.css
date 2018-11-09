@@ -526,3 +526,29 @@ li::before {
     font-size: 25px;
     color: #ffffff;
 }
+.form {
+    padding: 2%;
+    margin: 2% 33% 5% 33%;
+    background-color: #17408B;
+    border: 4px solid black;
+}
+input[type=submit]{
+  border-radius: 5%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 4px solid #C9082A;
+  width: 100%;
+  padding: 5%
+}
+input[type=text],input[type=tel],input[type=email]{
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
