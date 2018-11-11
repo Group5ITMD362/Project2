@@ -562,3 +562,8 @@ textarea{
   margin-bottom: 16px;
   resize: vertical;
 }
+
+button{
+	text align: center;
+	padding-bottom: 15px;
+}
