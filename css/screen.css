@@ -516,10 +516,20 @@ li::before {
     font-size: 35px;
     color: #ffffff;
 }
+.index h1 {
+    padding-bottom: 40px;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+}
 .index h2 {
     padding-bottom: 40px;
     font-size: 35px;
     color: #ffffff;
+    text-align: center;
+}
+.index p {
+    text-align: center;
 }
 .about h3 {
     padding-bottom: 30px;
@@ -566,8 +576,4 @@ textarea{
 #submit{;
   padding-top: 10%;
   text-align: center;
-  height: auto;
-  width: 50%;
-  margin-right: 50%;
-  margin-left: 20%;
 }
