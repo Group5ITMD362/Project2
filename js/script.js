@@ -17,7 +17,7 @@ $(document)
 function initMap() {
 	var isud = {lat: 52.2296756, lng: 21.012228700000037};
 	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 4,
+		zoom: 14,
 		center: isud
 	});
 	var marker = new google.maps.Marker({
