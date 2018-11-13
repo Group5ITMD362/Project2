@@ -582,3 +582,51 @@ textarea{
 	border: 3px solid black;
 	margin: 50px;
 }
+@media only screen and (max-width: 400px) {
+#navigation-container {
+  width: 200px;
+  margin: 0 auto;
+  height: 11.666px;
+}
+
+.navigation-bar {
+  background-color: #ffffff;
+  height: 11.666px;
+  width: 100%;
+  text-align:center;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 4px;
+  margin-top: 0.666px;
+  margin-bottom: 0.666px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 2.666px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 11.666px;
+  padding: 0.833px 2.5px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+}
