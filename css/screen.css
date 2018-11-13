@@ -582,3 +582,12 @@ textarea{
 	border: 3px solid black;
 	margin: 50px;
 }
+@media only screen and (max-width: 400px) {
+    #navigation-container {
+  width: 400px;
+  height: 25px;
+}
+.navigation-bar {
+  height: 25px;
+}
+}
