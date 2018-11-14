@@ -62,23 +62,6 @@ float:left;
 #menu {
   float: right;
 }
-.about{
-padding: (75px;
-color: #ffffff;
-width:80%;
-margin-left: auto;
-margin-right: auto;
-}
-.announcement{
-padding-top: 0px;
-padding: 75px;
-color: #ffffff;
-}
-.contact{
-padding-top: 0px;
-padding: 75px;
-color: #ffffff;
-}
 .index{
 padding-top: 0px;
 padding: 75px;
@@ -101,22 +84,6 @@ li::before {
     padding-right: 8px;
     color: #ffffff;
 }
-
-.about h2 {
-    padding-bottom: 40px;
-    font-size: 35px;
-    color: #ffffff;
-}
-.announcement h2 {
-    padding-bottom: 40px;
-    font-size: 35px;
-    color: #ffffff;
-}
-.contact h2 {
-    padding-bottom: 40px;
-    font-size: 35px;
-    color: #ffffff;
-}
 .index h1 {
     padding-bottom: 40px;
     font-size: 35px;
@@ -131,11 +98,6 @@ li::before {
 }
 .index p {
     text-align: center;
-}
-.about h3 {
-    padding-bottom: 30px;
-    font-size: 25px;
-    color: #ffffff;
 }
 .form {
     padding: 2%;
@@ -183,18 +145,12 @@ textarea{
 	border: 3px solid black;
 	margin: 50px;
 }
-<<<<<<< Updated upstream
-@media only screen and (max-width: 375px) {
-  #navigation-container {
-  width: 375px;
-}
+
 .navigation-bar li a{ 
-  font-size: 8px;
+  font-size: 1em;
   padding: 1px 1px;
 }
 }
-=======
-
 .title {
   text-align: center;
 }
@@ -224,4 +180,8 @@ textarea{
   padding: 1.5em;
   border-radius: 1em;
 }
->>>>>>> Stashed changes
+
+@media only screen and (max-width: 375px) {
+  #navigation-container {
+  width: 375px;
+}
