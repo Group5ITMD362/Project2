@@ -586,7 +586,7 @@ textarea{
   #navigation-container {
   width: 375px;
 }
-.navigation-bar li a 
+.navigation-bar li a{ 
   font-size: 8px;
   padding: 1px 1px;
 }
