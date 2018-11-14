@@ -582,7 +582,7 @@ textarea{
 	border: 3px solid black;
 	margin: 50px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   #navigation-container {
   width: 375px;
 }
