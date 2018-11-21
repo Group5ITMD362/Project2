@@ -181,15 +181,7 @@ textarea{
   resize: vertical;
 }
 
-button{
-  border-radius: 12px;
-  font-size: 16px;
-  background-color: gray;
-}
 
-button:hover{
-  background-color: #576DE8;
-}
 
 #map {
 	height: 400px;
