@@ -5,10 +5,9 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" media="screen" href="css/screen.css"/>
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
     <link rel="stylesheet" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
     <script src="js/script.js"></script>
   </head>
   <body>
@@ -17,37 +16,32 @@
       <div class="header-right">
         <a href="index.html">Home</a>
         <a class="active" href="contact.html">Contact</a>
-        <a  href="about.html">About</a>
-        <a href="announcement.html">Announcements </a><
+        <a  href="about.html">About Us</a>
+        <a href="announcement.html">Events</a>
       </div>
       </div>
     <div class="index">
-      <h2>CONTACT US</h2>
+      <h1>Get To Know Us</h1>
     </div>
-    <div class="form">
-      <form method="get" and "action=" #null" name="Contact" autocomplete="on" onsubmit="success()">
-        <fieldset>
-          <div>
-            <label for="name">Name: </label>
-            <input type="text" id="name" name="name" placeholder='Full Name' required>
-          </div>
-          <div>
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" placeholder='your@email.com' required>
-          </div>
-          <div>
-            <label for="subject">Subject: </label>
-            <input type="text" id="subject" name="subject" placeholder='Subject' required>
-          </div>
-          <div>
-            <label for="message">Message: </label>
-            <textarea class='autoExpand' rows='3' data-min-rows='3' placeholder='Your Message'></textarea>
-          </div>
-          <div>
-            <input type="submit" id = "submit"  value="Send">
-          </div>
-        </fieldset>
-      </form>
+    <form action="#null" method="post" autocomplete="on">
+      <div class="menu">
+        <div>
+          <label for="name">First Name</label>
+          <input id="name" name="first_name_field" type="text" placeholder="John">
+        </div>
+        <div>
+          <label for="Lname">Last Name</label>
+          <input id="Lname" name="first_name_field" type="text" placeholder="Doe">
+        </div>
+        <div>
+          <label for="mail">Email</label>
+          <input id="mail" name="email_field" type="email" placeholder="user@mail.com">
+        </div>
+        <div>
+          <button class="button submit" type="submit" onclick="SubmitNotify()">Get Started</button>      
+        </div>
+      </div>  
+    </form>
     </div>
     <div id="map">
       <script src="js/script.js"></script>
