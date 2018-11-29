@@ -15,6 +15,9 @@ div{
   margin-bottom: 1.3em;
 }
 
+a{
+  text-decoration: none;
+}
 
 .header {
   overflow: hidden;
@@ -27,7 +30,6 @@ div{
   color: black;
   text-align: center;
   padding: 12px;
-  text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
@@ -58,7 +60,6 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-  padding-bottom: .5em;
   font-size: 2em;
 }
 
@@ -135,8 +136,6 @@ input {
   margin-right: auto;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   line-height: 1.5em;
-  background-color: grey;
-  padding: 1.5em;
   border-radius: 1em;
 }
 
@@ -145,8 +144,14 @@ input {
   margin-right: auto;
   width: 50%;
   line-height: 2em;
-  padding: 1.5em, 1.5em, 1.5em,0;
+  padding: 1.5em, 0em, 1.5em,0;
   border-radius: 1em;
+}
+
+.about{
+  max-width: 800px;
+  margin:auto;
+  margin-top:-.5em;
 }
 
 @media only screen and (max-width: 375px) {
